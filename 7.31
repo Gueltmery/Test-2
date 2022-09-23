@@ -1,0 +1,6 @@
+y= float(input())
+hour = 30
+minute = hour/60
+h = y//hour
+m = (y / 30 * 60) % 60
+print(h, m)
